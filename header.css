@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+}
+
+.top-navbar{
+    z-index: 50;
+    background: #0066B2;
+    height: 80px;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    box-shadow: 0 3px 5px -3px #000;
+}
+
+.Btn-Links{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Btn-Links a{
+    background: white;
+    height: 30px;
+    width: 140px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.Btn-Links a:hover{
+  background: midnightblue;
+  color: #fff;
+    color: 
+}
+
+
+.top-navbar .menu{
+    width: calc(100% - 80px);
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+
+
+
+.main-container .sidebar{
+    position:fixed;
+    top: 80px;
+    left: 0;
+    width: 180px;
+    height: 100%;
+    background: #0066B2;
+    transition: all 0.3s ease;
+}
+
+.main-container .sidebar h1{
+    font-family: sans-serif;
+    color: bisque;
+}
+
+.main-container .sidebar ul li a{
+    color: #fff;
+    font-size: 18px;
+    padding: 20px;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1px;
+    transition: all 0.3s ease;
+}
+
+.main-container .sidebar ul li a .icon{
+    margin-right: 10px;
+    font-size: 28px;
+}
+
+.main-container .sidebar ul li a span{
+    display: inline-block;  
+}
+
+.main-container .sidebar ul li a:hover{
+  background: #fff;
+  color: #0066B2;
+}
+/* after active wrapper */
+.wrapper.active .sidebar{
+    width: 80px;
+}
+.wrapper.active .sidebar ul li a span.title{
+  display: none;
+}

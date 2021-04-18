@@ -1,0 +1,30 @@
+ 
+body{
+    margin-top: 7%;
+   background: url(images/fq-bg.jfif) no-repeat center;
+}
+
+h1{
+ text-align: center;
+    font-size: 50px;
+    font-family: monospace;
+    color: #0066B2;
+}
+p{
+ font-size: 55px;
+}
+    
+main{
+      margin-left: 50px;
+      width: 100%;
+      margin-top: 40px;
+      background: url(images/bg.jpg) no-repeat center;
+}
+.box{
+ width: 20%;
+ float: left;
+ padding: 7px;
+ padding-left: 10px;  
+ display: block;
+ margin: 10px;
+}

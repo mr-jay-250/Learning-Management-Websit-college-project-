@@ -1,0 +1,259 @@
+.dashboard-container{
+    padding: 30px 0;
+    margin: 80px 50px 50px 220px;
+    transition: all 0.3s ease;
+/*    padding: 100px 150px;*/
+    
+}
+
+
+.wrapper.active .dashboard-container{
+    margin: 80px 50px 50px 120px;
+}
+
+.text-container{
+    position: relative;
+    padding-right: 16px;
+    padding-left: 16px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.cover {
+    padding: 20px 0 46px;
+}
+
+.row{
+    display: flex;
+/*    justify-content: space-between;*/
+    flex-wrap: wrap;
+    margin-left: -16px;
+    margin-right: -16px;
+}
+
+.cover-detail{
+/*    padding: 100px 20px;*/
+    max-width: 445px;
+}
+
+.cover h1 {
+    font-size: 44px;
+    line-height: 49px;
+    margin-bottom: 20px;
+    max-width: 358px;
+    font-family: cursive;
+    background: linear-gradient(109.16deg, #399CD5 27.97%, #B6DDF1 179.76%, #F3FCFF 179.78%, #F3FCFF 179.78%, #F3FCFF 179.78%);
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+}
+
+.cover p {
+    color: #0066B2;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 56px;
+    font-family: fantasy;
+}
+
+
+.flex-column {
+    flex-direction: column;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+.d-flex {
+    display: flex!important;
+}
+
+.col-md-5 .col-md-7{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+
+form {
+  border: 3px solid #f1f1f1;
+  font-family: Arial;
+}
+
+.container {
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+
+.feature-section {
+    margin: 10px 0;
+    box-shadow: 1px 3px 5px 1px #000;
+    padding: 35px 50px 20px 50px;
+}
+
+.section-title {
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    margin: 0 auto 70px auto;
+    font-family: cursive;
+    color: #0066B2;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.feature-section .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-right: -16px;
+    margin-left: -16px;
+}
+
+.col-md-6 .col-lg-4{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+.media {
+    display: flex;
+    align-items: flex-start;
+}
+
+.media_details{
+    height: 201px;
+    width: 260px;
+}
+
+.media h3 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    text-align: center;
+    color: rosybrown;
+}
+
+.media p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    color: rgba(37,38,94,.7);
+    margin-bottom: 36px;
+    text-align: center;
+    color: #0066B2;
+}
+
+
+
+
+
+.feedback-section{
+    margin: 60px 0;
+    background: url(images/bg2.jpg) no-repeat center;
+    box-shadow: 1px 3px 5px 1px #000;
+    padding: 35px 50px 20px 50px;
+}
+
+.feedback-section .section-title {
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    margin: 0 auto 40px auto;
+/*    padding: 10px 60px 20px 60px;*/
+}
+
+.feedback-field{
+    height: 40px;
+    width: 400px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.search-btn{
+    height: 40px;
+    width: 125px;
+    background: #2B59D1;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 5px auto 0px auto;
+}
+
+.search-btn:hover{
+    background: #fff;
+    cursor: pointer;
+    color: #2B59D1;
+    font-weight: 600;
+}
+
+.fq-section{
+    margin: 60px 0;
+    background: url(images/fq-bg.jfif) no-repeat center;
+    box-shadow: 1px 3px 5px 1px #000;
+    padding: 35px 50px 20px 50px;
+}
+
+.fq-section .section-title{
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    margin: 0 auto 70px auto;
+}
+
+.fq-box{
+    margin: 10px 10px 10px 10px;
+}
+
+.fq-section .fq-box li{
+    margin: 30px;
+}
+
+.fq-section .fq-box h2{
+    font-size: 22px;
+    color: midnightblue;
+}
+
+.fq-section .fq-box p{
+    margin: 10px;
+    font-size: 19px;
+    
+}
+
+
+
